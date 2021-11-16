@@ -1,0 +1,143 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+h2{
+text-align: center;
+font-size: 24px;
+/*margin: 0;*/
+line-height: 1.4;
+margin-bottom: 20px;
+}
+
+#headline{
+  margin: 0;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.brand{
+  width: 27%; 
+  position: center;
+  margin-left: 25%;
+  
+  
+}
+  
+.background{
+height: 55%;
+position: center;
+padding-left: 2%;
+margin-top: 15%;
+}
+
+.result img{
+  display: inline;
+  width: 30px;
+
+}
+
+.result p{
+  margin: 0;
+  font-size: 20px;
+}
+
+p{
+  font-size: 24px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  font-family: cursive;
+  color: white;
+  max-width: 900px; 
+  max-height: 1000px;
+  padding: 40px;
+  background-color: rgb(158, 20, 20);
+  border-radius: 0px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  bottom: 1%;
+  
+  
+}
+  
+input{ 
+font-family: cursive;
+width: 100%;
+display: block;
+padding: 5px;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+
+button{
+font-family: cursive;
+font-size: 25px;
+padding: 8px 50px;
+color: white;
+display: inline-block;
+border-radius: 4px;
+background-color: black;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+width: 100%;
+transition: all 0.5s;
+cursor: pointer;
+
+}
+  
+  .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+    
+  }
+  
+  .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  }
+  
+  .button:hover span {
+  padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+  opacity: 1;
+  right: 0; 
+}
+
+#adultos, #criancas, #duracao{
+position: center;
+background-color: white;
+
+}
+
+.qtdadultos, .qtdcriancas, .qtdduracao { 
+text-align: center;
+font-size: 18px;
+}
+
+a{
+font-size: 10px;
+color:rgb(160, 159, 159);
+margin-left: 3%;
+}
+
+
+
+
