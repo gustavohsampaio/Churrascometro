@@ -19,3 +19,7 @@ Crianças valem por 0,5
 - HTML
 - CSS
 - JavaScript
+
+# Licença
+
+Vetores utilizados do site: br.freepik.com
