@@ -3,7 +3,7 @@ Projeto criado através do curso de Desenvolvimento Web Full-stack by Programado
 
 # Sobre o Projeto
 
-Criação de sistema para calcular a quantidade de carne, cerveja, refrigerante e água para um churrasco atráves das seguintes informações :
+Criação de sistema para calcular a quantidade de carne, cerveja, refrigerante e água para um churrasco atráves das seguintes informações:
 
 
 Carne por adulto - 400gr + de 6horas - 650gr
