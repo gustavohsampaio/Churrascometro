@@ -16,7 +16,8 @@ Crianças valem por 0,5
 
 # Projeto em execução
 
-![videoChurrascometro](https://user-images.githubusercontent.com/93945597/145495825-bef4508b-380c-4896-a304-f7e06637b2df.gif)
+![churrascometro](https://user-images.githubusercontent.com/93945597/145499703-9e65fbd7-9eba-4b05-8aa7-169e54b3a85a.gif)
+
 
 # Linguagens de tecnologia utilizadas no projeto
 
