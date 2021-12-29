@@ -14,7 +14,7 @@ Refrigerante / água  por adulto/criança - 1000ml por pessoa + 6 horas 1500ml
 
 Crianças valem por 0,5 
 
-# :clapper: Apresentação
+# :computer: Apresentação
 
 ![churrascometro](https://user-images.githubusercontent.com/93945597/145499703-9e65fbd7-9eba-4b05-8aa7-169e54b3a85a.gif)
 
