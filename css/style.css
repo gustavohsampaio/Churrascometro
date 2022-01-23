@@ -4,62 +4,74 @@ body, html {
   background-color: aliceblue;
 }
 
-h2{
-text-align: center;
-font-size: 24px;
-/*margin: 0;*/
-line-height: 1.4;
-margin-bottom: 20px;
+#brand2 {
+  display: none;
 }
 
+<<<<<<< Updated upstream
+#brand img {
+  width: 27%;
+  margin-left: 25%;
+}
+ 
+
+#background {
+  position: relative;
+=======
 #headline{
   margin: 0;
   line-height: 1.4;
   margin-bottom: 14px;
+  
+>>>>>>> Stashed changes
 }
 
-.brand{
-  width: 27%; 
+#background img {
+  width: 66%;
   position: center;
+<<<<<<< Updated upstream
+  padding-left: 2%;
+  margin-top: 15%;
+=======
   margin-left: 25%;
+  margin-top: 10px;
   
   
-}
-  
-.background{
-height: 55%;
-position: center;
-padding-left: 2%;
-margin-top: 15%;
+>>>>>>> Stashed changes
 }
 
-.result img{
-  display: inline;
-  width: 30px;
-
+#inserirInfo {
+  margin-top: 0;
 }
 
-.result p{
-  margin: 0;
-  font-size: 20px;
-}
-
-p{
+#infoQtd, #inserirInfo { 
   font-size: 24px;
   text-align: center;
+} 
+
+.result img {
+  display: inline;
+  width: 30px;
+  vertical-align: sub;
 }
+
+.result p { 
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.container{
+#container {
   font-family: cursive;
   color: white;
   max-width: 900px; 
   max-height: 1000px;
   padding: 40px;
   background-color: rgb(158, 20, 20);
-  border-radius: 0px;
   position: absolute;
   top: 1%;
   right: 1%;
@@ -68,7 +80,7 @@ p{
   
 }
   
-input{ 
+input { 
 font-family: cursive;
 width: 100%;
 display: block;
@@ -78,7 +90,7 @@ margin-bottom: 10px;
 text-align: center;
 }
 
-button{
+button {
 font-family: cursive;
 font-size: 25px;
 padding: 8px 50px;
@@ -93,33 +105,31 @@ font-size: 28px;
 width: 100%;
 transition: all 0.5s;
 cursor: pointer;
-
 }
   
-  .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-    
-  }
+#botaoCalcular span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
   
-  .button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-  }
-  
-  .button:hover span {
-  padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-  opacity: 1;
-  right: 0; 
+#botaoCalcular span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+#botaoCalcular:hover span {
+padding-right: 25px;
+}
+
+#botaoCalcular:hover span:after {
+opacity: 1;
+right: 0; 
 }
 
 #adultos, #criancas, #duracao{
@@ -128,7 +138,7 @@ background-color: white;
 
 }
 
-.qtdadultos, .qtdcriancas, .qtdduracao { 
+.qtd { 
 text-align: center;
 font-size: 18px;
 }
@@ -141,4 +151,74 @@ margin-left: 3%;
 
 
 
+@media (max-width:768px) { /* celulares */
 
+  body {
+    background-color: rgb(158, 20, 20);
+  }
+
+  #brand, #background {
+    display: none;
+  }
+
+  #brand2 {
+    background-color: rgb(158, 20, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  #brand2 img {
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  #container {
+    width: 100vw;
+    position: relative;
+    right: 0;
+    top: 0;
+    bottom: 1%;
+    padding: 0 11px 0 11px;
+  }
+
+  #inserirInfo {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .qtd {
+    font-size: 17px;
+  }
+  
+  #adultos, #criancas, #duracao{
+    width: 85%;
+    margin: 0 25px 10px 25px;
+  }
+
+  #botaoCalcular {
+    width: 85%;
+    margin: 0 25px 0 25px;
+  }
+  
+  #botaoCalcular {
+    padding: 8px;
+    font-size: 22px;
+  }
+
+  #infoQtd {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+
+  .result p {
+    font-size: 18px;
+  }
+
+  .result img {
+    vertical-align: sub;
+  }
+}
