@@ -8,36 +8,20 @@ body, html {
   display: none;
 }
 
-<<<<<<< Updated upstream
 #brand img {
   width: 27%;
   margin-left: 25%;
 }
  
-
 #background {
   position: relative;
-=======
-#headline{
-  margin: 0;
-  line-height: 1.4;
-  margin-bottom: 14px;
   
->>>>>>> Stashed changes
 }
 
 #background img {
   width: 66%;
-  position: center;
-<<<<<<< Updated upstream
-  padding-left: 2%;
-  margin-top: 15%;
-=======
-  margin-left: 25%;
-  margin-top: 10px;
-  
-  
->>>>>>> Stashed changes
+  padding: 15px 0 0 20px;
+ 
 }
 
 #inserirInfo {
@@ -80,7 +64,7 @@ body, html {
   
 }
   
-input { 
+#adultos, #criancas, #duracao { 
 font-family: cursive;
 width: 100%;
 display: block;
@@ -143,7 +127,7 @@ text-align: center;
 font-size: 18px;
 }
 
-a{
+a {
 font-size: 10px;
 color:rgb(160, 159, 159);
 margin-left: 3%;
